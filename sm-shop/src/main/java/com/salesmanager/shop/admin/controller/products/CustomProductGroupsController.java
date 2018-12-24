@@ -106,7 +106,7 @@ public class CustomProductGroupsController {
 			resp.setStatus(AjaxPageableResponse.RESPONSE_STATUS_SUCCESS);
 		
 		} catch (Exception e) {
-			LOGGER.error("Error while paging products", e);
+			LOGGER.error("Error while paging the products", e);
 			resp.setStatus(AjaxPageableResponse.RESPONSE_STATUS_FAIURE);
 			resp.setErrorMessage(e);
 		}
